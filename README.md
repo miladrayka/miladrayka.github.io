@@ -92,3 +92,4 @@ Tehran, Iran. Email:  milad.rayka@yahoo.com
 
 -   **Github**:  [Link](https://github.com/miladrayka)
 -   **Scholar**:  [Link](https://scholar.google.com/citations?user=NxF2f0cAAAAJ&hl=en)
+-   **LinkedIn**: [Link](https://www.linkedin.com/in/miladrayka/)
