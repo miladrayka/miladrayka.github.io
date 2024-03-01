@@ -1,7 +1,8 @@
 **Milad Rayka**
 
-Tehran, Iran. Phone: +989193157723. Email:  miladrayka93@gmail.com
+Tehran, Iran. Phone: -. Email:  miladrayka93@gmail.com
 
+---
 **EDUCATION**
 
 **Chemistry and Chemical Engineering Research Center of Iran, Tehran, Iran**
@@ -13,6 +14,7 @@ Tehran, Iran. Phone: +989193157723. Email:  miladrayka93@gmail.com
 -   M.Sc., Physical Chemistry (18.99/20) 2015-2017
 -   B.Sc., Applied Chemistry (18.42/20) 2011-2015
 
+---
 **RESEARCH EXPERIENCE**
 
 **Chemistry and Chemical Engineering Research Center of Iran, Tehran, Iran**  2018-2022
@@ -49,6 +51,7 @@ Tehran, Iran. Phone: +989193157723. Email:  miladrayka93@gmail.com
 
 -   **Results**: Study the theory of Atom in Molecule and its’ extension under the guidance of Dr. Shahbazian.
 
+---
 **TEACHING EXPERIENCE**
 
 -   Teaching Assistant, Quantum chemistry 1 and 2 for graduate students, Shahid Beheshti University 2016-2017
@@ -56,6 +59,7 @@ Tehran, Iran. Phone: +989193157723. Email:  miladrayka93@gmail.com
 -   Teaching Mathematica software, Chemistry and Chemical Engineering Research Center of Iran 2019-2020
 -   Teaching Python programming language, Chemistry and Chemical Engineering Research Center of Iran 2020-2021
 
+---
 **PUBLICATION**
 
 -   **Milad Rayka**, Morteza Mirzaei, Gholamreza Farnoosh, Ali Mohammad Latifi. Investigating Enzyme Biochemistry by Deep Learning: A Computational Tool for a New Era. 2023, Under Consideration.
@@ -67,6 +71,7 @@ Tehran, Iran. Phone: +989193157723. Email:  miladrayka93@gmail.com
 -   **Milad Rayka**, Mohammad Goli, and Shant Shahbazian. Toward a muon-specificelectronic structure theory: effective electronic Hartree–Fock equations formuonic molecules. Phys. Chem. Chem. Phys, 2018, 20, 4466 ([DOI](10.1039/C7CP07599E)).
 -   **Milad Rayka**, Mohammad Goli, and Shant Shahbazian. Effective electronic-onlyKohn–Sham equations for the muonic molecules. Phys. Chem. Chem. Phys, 2018, 20, 8802 ([DOI](10.1039/C8CP00321A)).
 
+---
 **HONORS AND AWARDS**
 
 -   Selected by the National Elite Foundation as Elite Student, 2018 and 2022.
@@ -75,6 +80,7 @@ Tehran, Iran. Phone: +989193157723. Email:  miladrayka93@gmail.com
 -   Ranked 1st  among students as a top student in B.Sc. Applied Chemistry, Shahid Beheshti University, 2015.
 -   Member of Special Talent in Shahid Beheshti University, 2015.
 
+---
 **Skills**
 
 -   The experience of machine and deep learning algorithms (theoretical and practical).
