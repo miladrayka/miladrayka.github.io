@@ -1,6 +1,6 @@
 **Milad Rayka**
 
-Tehran, Iran. Phone: -. Email:  miladrayka93@gmail.com
+Tehran, Iran. Email:  milad.rayka@yahoo.com
 
 ---
 **EDUCATION**
@@ -87,6 +87,7 @@ Tehran, Iran. Phone: -. Email:  miladrayka93@gmail.com
 -   The experience of Python programming language and its’ relevant libraries, e.g., Tensorflow, PyTorch, Scikit-Learn, BioPython, etc.
 -   Experience in computational chemistry and bioinformatics software: Gaussian, GAMESS, Autodock, PyMol.
 
+---
 **Websites**
 
 -   **Github**:  [Link](https://github.com/miladrayka)
