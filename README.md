@@ -62,7 +62,7 @@ Tehran, Iran. Email:  milad.rayka@yahoo.com
 ---
 **PUBLICATION**
 
--   **Milad Rayka**, Morteza Mirzaei, Gholamreza Farnoosh, Ali Mohammad Latifi. Investigating Enzyme Biochemistry by Deep Learning: A Computational Tool for a New Era. 2023, Accepted by Journal of Computational Biophysics and Chemistry.
+-   **Milad Rayka**, Morteza Mirzaei, Gholamreza Farnoosh, Ali Mohammad Latifi. Investigating Enzyme Biochemistry by Deep Learning: A Computational Tool for a New Era. 2023, Accepted by Journal of Computational Biophysics and Chemistry [DOI](https://doi.org/10.1142/S2737416524400052).
 -   **Milad Rayka**, Ali Mohammad Latifi, Morteza Mirzaei, Gholamreza Farnoosh, Zeinab Khosravi, ADDZYME: A Software to Predict Effect of Additives on Enzyme Activity. 2024, Accepted by Journal of Chemical Sciences.
 -   **Milad Rayka**, Morteza Mirzaei, Ali Mohammad Latifi. An Ensemble-Based Approach to Estimate Confidence of Predicted Protein-Ligand Binding Affinity Values. 2023, Mol. inf. 2024, 43, e202300292 ([DOI](https://doi.org/10.1002/minf.202300292)).
 -   **Milad Rayka**, Ali Mohammad Latifi, Morteza Mirzaei. Assisting In-Silico Drug Discovery Through Protein-Ligand Binding Affinity Prediction By Convolutional Neural Networks. 2023, Accepted by Journal of Applied Biotechnology Reports.
