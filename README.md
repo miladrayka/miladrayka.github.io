@@ -15,6 +15,13 @@ Tehran, Iran. Email:  milad.rayka@yahoo.com
 -   B.Sc., Applied Chemistry (18.42/20) 2011-2015
 
 ---
+**Work Experience**
+
+**Shahid Beheshti University** 2024-?
+
+Computational Chemistry Postdoctoral Fellow
+
+---
 **RESEARCH EXPERIENCE**
 
 **Chemistry and Chemical Engineering Research Center of Iran, Tehran, Iran**  2018-2022
@@ -63,9 +70,9 @@ Tehran, Iran. Email:  milad.rayka@yahoo.com
 **PUBLICATION**
 
 -   **Milad Rayka**. REINDEER: A Protein-Ligand Feature Generator Software for Machine Learning Algorithms. ChemRxiv, 2024 ([DOI](https://doi.org/10.26434/chemrxiv-2024-89ss9)).
--   **Milad Rayka**, Morteza Mirzaei, Gholamreza Farnoosh, Ali Mohammad Latifi. Investigating Enzyme Biochemistry by Deep Learning: A Computational Tool for a New Era. 2023, Accepted by Journal of Computational Biophysics and Chemistry ([DOI](https://doi.org/10.1142/S2737416524400052)).
--   **Milad Rayka**, Ali Mohammad Latifi, Morteza Mirzaei, Gholamreza Farnoosh, Zeinab Khosravi, ADDZYME: A Software to Predict Effect of Additives on Enzyme Activity. 2024, Accepted by Journal of Chemical Sciences.
--   **Milad Rayka**, Morteza Mirzaei, Ali Mohammad Latifi. An Ensemble-Based Approach to Estimate Confidence of Predicted Protein-Ligand Binding Affinity Values. 2023, Mol. inf. 2024, 43, e202300292 ([DOI](https://doi.org/10.1002/minf.202300292)).
+-   **Milad Rayka**, Morteza Mirzaei, Gholamreza Farnoosh, Ali Mohammad Latifi. Investigating Enzyme Biochemistry by Deep Learning: A Computational Tool for a New Era. 2024, Journal of Computational Biophysics and Chemistry ([DOI](https://doi.org/10.1142/S2737416524400052)).
+-   **Milad Rayka**, Ali Mohammad Latifi, Morteza Mirzaei, Gholamreza Farnoosh, Zeinab Khosravi, ADDZYME: A Software to Predict Effect of Additives on Enzyme Activity.  J Chem Sci, 2024, 136, 47 ([DOI](https://link.springer.com/article/10.1007/s12039-024-02272-8))
+-   **Milad Rayka**, Morteza Mirzaei, Ali Mohammad Latifi. An Ensemble-Based Approach to Estimate Confidence of Predicted Protein-Ligand Binding Affinity Values. Mol. inf. 2024, 43, e202300292 ([DOI](https://doi.org/10.1002/minf.202300292)).
 -   **Milad Rayka**, Ali Mohammad Latifi, Morteza Mirzaei. Assisting In-Silico Drug Discovery Through Protein-Ligand Binding Affinity Prediction By Convolutional Neural Networks. 2024, Accepted by Journal of Applied Biotechnology Reports.
 -   **Milad Rayka**, Rohoullah Firouzi. GB-Score: Minimally Designed MachineLearning Scoring Function Based on Distance-weighted Interatomic ContactFeatures. Mol. Inf. 2023 , 42, 2200135 ([DOI](https://doi.org/10.1002/minf.202200135)).
 -   **Milad Rayka**, Mohammad Hossein Karimi-Jafari, Rohoullah Firouzi. ET-score:Improving Protein-ligand Binding Affinity Prediction Based on Distance-weighted Interatomic Contact Features Using Extremely Randomized Trees Algorithm. Mol. Inf. 2021 , 40, 2060084 ([DOI](https://doi.org/10.1002/minf.202060084)).
