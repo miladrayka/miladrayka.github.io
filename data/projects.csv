@@ -1,0 +1,9 @@
+Title,Link,Description,Category
+"reindeer_software","https://github.com/miladrayka/reindeer_software","Protein-Ligand Feature Generator Software (OIC, DWIC, ECIF).","Core Software"
+"addzyme","https://github.com/miladrayka/addzyme","Predicts effect of additives on enzyme activity.","Core Software"
+"ENS_Score","https://github.com/miladrayka/ENS_Score","Probabilistic ensemble-based binding affinity prediction.","Scoring Functions"
+"ENS_SCORE_GUI","https://github.com/miladrayka/ENS_SCORE_GUI","Web application and graphical user interface for ENS-Score.","Scoring Functions"
+"uncertainty_quantification","https://github.com/miladrayka/uncertainty_quantification","Deep learning benchmark for reliability metrics.","Deep Learning"
+"hca_ml","https://github.com/miladrayka/hca_ml","Machine learning toolset to predict Human Carbonic Anhydrase activity.","Scoring Functions"
+"GB_Score","https://github.com/miladrayka/GB_Score","Gradient-boosting tree scoring function using distance-weighted contacts.","Scoring Functions"
+"3s_application","https://github.com/miladrayka/3s_application","Supplementary Python 3.9 tool interacting with ENS-Score suite.","Scoring Functions"

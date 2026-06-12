@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects | Milad Rayka</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-logo">Milad Rayka</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="tutorials.html">Tutorials</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="page">
+        <h1>Software & Projects</h1>
+        <p>A collection of tools developed for computational chemistry and machine learning.</p>
+        <div id="project-list" class="card-grid">
+            <!-- Projects will load here -->
+        </div>
+    </main>
+
+    <script>
+        function parseCSV(text) {
+            const lines = text.split(/\r?\n/);
+            return lines.filter(line => line.trim() !== "").map(line => {
+                const values = [];
+                let current = "";
+                let inQuotes = false;
+                for (let char of line) {
+                    if (char === '"') { inQuotes = !inQuotes; }
+                    else if (char === ',' && !inQuotes) { values.push(current); current = ""; }
+                    else { current += char; }
+                }
+                values.push(current);
+                
+                // Clean up any remaining leading/trailing spaces or residual wrapping quotes
+                return values.map(v => v.trim().replace(/^"|"$/g, ''));
+            });
+        }
+
+        fetch('../data/projects.csv')
+            .then(response => response.text())
+            .then(text => {
+                const data = parseCSV(text);
+                const rows = data.slice(1); // Remove header
+                const container = document.getElementById('project-list');
+                
+                container.innerHTML = rows.map(cols => {
+                    if (cols.length < 3) return ''; 
+                    
+                    const title = cols[0];
+                    const url = cols[1];
+                    const description = cols[2];
+                    const category = cols[3] || 'Project';
+
+                    return `
+                        <div class="card">
+                            <span class="tag">${category}</span>
+                            <h3>${title}</h3>
+                            <p>${description}</p>
+                            <div style="margin-top: 15px;">
+                                <!-- Unhighlighted link style -->
+                                <a href="${url}" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline;">View on GitHub →</a>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+            })
+            .catch(err => {
+                console.error("Error loading projects:", err);
+                document.getElementById('project-list').innerHTML = "<p>Please ensure data/projects.csv exists.</p>";
+            });
+    </script>
+</body>
+</html>

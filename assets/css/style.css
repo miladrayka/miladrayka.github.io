@@ -1,0 +1,16 @@
+
+:root { --font: 'Inter', sans-serif; --accent: #2563eb; --text: #374151; --border: #e5e7eb; }
+body { font-family: var(--font); color: var(--text); background: #f9fafb; margin: 0; line-height: 1.5; }
+nav { background: #fff; border-bottom: 1px solid var(--border); height: 60px; display: flex; align-items: center; position: sticky; top: 0; }
+.nav-inner { max-width: 900px; margin: 0 auto; width: 100%; display: flex; justify-content: space-between; padding: 0 20px; }
+.nav-links { display: flex; gap: 20px; list-style: none; }
+.nav-links a { text-decoration: none; color: #6b7280; font-size: 0.9rem; }
+.nav-links a:hover { color: var(--accent); }
+.page { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+.pub-card { background: #fff; border: 1px solid var(--border); padding: 25px; border-radius: 12px; margin-bottom: 20px; }
+.pub-year { background: #eff6ff; color: #2563eb; font-weight: bold; padding: 2px 10px; border-radius: 5px; font-size: 0.8rem; }
+.pub-authors { font-size: 0.9rem; color: #4b5563; margin: 8px 0; }
+.pub-journal { color: #111827; font-weight: 500; }
+.card-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.card { background: #fff; border: 1px solid var(--border); padding: 20px; border-radius: 10px; text-decoration: none; color: inherit; }
+.tag { display: inline-block; margin-top: 10px; color: var(--accent); text-decoration: none; font-size: 0.85rem; font-weight: 600; }

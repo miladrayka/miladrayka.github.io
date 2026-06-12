@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorials | Milad Rayka</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-logo">Milad Rayka</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="tutorials.html" class="active">Tutorials</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="page">
+        <h1>Tutorials</h1>
+        <p>Guides and walkthroughs on Computational Chemistry, Python, and Machine Learning.</p>
+        
+        <div id="tutorial-list" class="card-grid">
+            <!-- Tutorials will load here automatically from CSV -->
+             <div class="card">
+                <h3>Coming Soon</h3>
+                <p>Stay tuned!</p>
+             </div>
+        </div>
+    </main>
+
+    <script>
+        function parseCSV(text) {
+            const lines = text.split(/\r?\n/);
+            return lines.filter(line => line.trim() !== "").map(line => {
+                const values = [];
+                let current = "";
+                let inQuotes = false;
+                for (let char of line) {
+                    if (char === '"') inQuotes = !inQuotes;
+                    else if (char === ',' && !inQuotes) { values.push(current); current = ""; }
+                    else current += char;
+                }
+                values.push(current);
+                return values;
+            });
+        }
+
+        // We use a try/catch here so the page doesn't break if the file doesn't exist yet
+        fetch('../data/tutorials.csv')
+            .then(response => {
+                if (!response.ok) throw new Error("File not found");
+                return response.text();
+            })
+            .then(text => {
+                const data = parseCSV(text);
+                const rows = data.slice(1);
+                if (rows.length > 0) {
+                    const container = document.getElementById('tutorial-list');
+                    container.innerHTML = rows.map(cols => `
+                        <div class="card">
+                            <span class="tag">${cols[3] || 'Tutorial'}</span>
+                            <h3>${cols[0]}</h3>
+                            <p>${cols[2]}</p>
+                            <div style="margin-top: 15px;">
+                                <a href="${cols[1]}" target="_blank" class="tag" style="background: #2563eb; color: white;">Read Tutorial</a>
+                            </div>
+                        </div>
+                    `).join('');
+                }
+            })
+            .catch(err => {
+                console.log("Tutorials CSV not found or empty. Showing placeholder.");
+            });
+    </script>
+</body>
+</html>
