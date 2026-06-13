@@ -8,7 +8,7 @@
 <body>
     <nav>
         <div class="nav-inner">
-            <a href="../index.html" class="nav-logo">Milad Rayka</a>
+            <a href="../index.html" class="nav-logo">AI for Molecular & Materials Science</a>
             <ul class="nav-links">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="publications.html">Publications</a></li>
@@ -21,7 +21,7 @@
 
     <main class="page">
         <h1>Software & Projects</h1>
-        <p>A collection of tools developed for computational chemistry and machine learning.</p>
+        <p>A collection of tools developed for machine and deep learning application in science.</p>
         <div id="project-list" class="card-grid">
             <!-- Projects will load here -->
         </div>
@@ -40,8 +40,6 @@
                     else { current += char; }
                 }
                 values.push(current);
-                
-                // Clean up any remaining leading/trailing spaces or residual wrapping quotes
                 return values.map(v => v.trim().replace(/^"|"$/g, ''));
             });
         }
@@ -50,26 +48,21 @@
             .then(response => response.text())
             .then(text => {
                 const data = parseCSV(text);
-                const rows = data.slice(1); // Remove header
+                const rows = data.slice(1);
                 const container = document.getElementById('project-list');
-                
-                container.innerHTML = rows.map(cols => {
-                    if (cols.length < 3) return ''; 
-                    
+
+                container.innerHTML = rows.map((cols, i) => {
+                    if (cols.length < 3) return '';
                     const title = cols[0];
                     const url = cols[1];
                     const description = cols[2];
-                    const category = cols[3] || 'Project';
 
                     return `
                         <div class="card">
-                            <span class="tag">${category}</span>
+                            <span class="pub-year">#${i + 1}</span>
                             <h3>${title}</h3>
                             <p>${description}</p>
-                            <div style="margin-top: 15px;">
-                                <!-- Unhighlighted link style -->
-                                <a href="${url}" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline;">View on GitHub →</a>
-                            </div>
+                            <a href="${url}" target="_blank" rel="noopener noreferrer" class="project-link">↗ GitHub</a>
                         </div>
                     `;
                 }).join('');

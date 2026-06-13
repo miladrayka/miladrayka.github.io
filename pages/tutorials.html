@@ -8,7 +8,7 @@
 <body>
     <nav>
         <div class="nav-inner">
-            <a href="../index.html" class="nav-logo">Milad Rayka</a>
+            <a href="../index.html" class="nav-logo">AI for Molecular & Materials Science</a>
             <ul class="nav-links">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="publications.html">Publications</a></li>
@@ -22,13 +22,12 @@
     <main class="page">
         <h1>Tutorials</h1>
         <p>Guides and walkthroughs on Computational Chemistry, Python, and Machine Learning.</p>
-        
+
         <div id="tutorial-list" class="card-grid">
-            <!-- Tutorials will load here automatically from CSV -->
-             <div class="card">
+            <div class="card">
                 <h3>Coming Soon</h3>
                 <p>Stay tuned!</p>
-             </div>
+            </div>
         </div>
     </main>
 
@@ -49,7 +48,6 @@
             });
         }
 
-        // We use a try/catch here so the page doesn't break if the file doesn't exist yet
         fetch('../data/tutorials.csv')
             .then(response => {
                 if (!response.ok) throw new Error("File not found");
@@ -65,9 +63,7 @@
                             <span class="tag">${cols[3] || 'Tutorial'}</span>
                             <h3>${cols[0]}</h3>
                             <p>${cols[2]}</p>
-                            <div style="margin-top: 15px;">
-                                <a href="${cols[1]}" target="_blank" class="tag" style="background: #2563eb; color: white;">Read Tutorial</a>
-                            </div>
+                            <a href="${cols[1]}" target="_blank" class="tag tag--filled tutorial-link">Read Tutorial</a>
                         </div>
                     `).join('');
                 }
